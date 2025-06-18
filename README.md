@@ -45,9 +45,13 @@ Fáze	Popis	Technologie	Výstup
 🗓️ Harmonogram (září–leden):
 Měsíc	Aktivita
 Září	Analýza zadání, návrh funkcí a databázové struktury (ER diagram)
+
 Říjen	Backend – vytvoření Django modelů a API, napojení na fotbalové API
+
 Listopad	Vývoj Flutter UI, přidání funkcí sázení a uživatelského účtu
+
 Prosinec	Implementace přátel, žebříčku, historie sázek, testování
+
 Leden	Finální ladění, tvorba dokumentace, prezentace a obhajoba projektu
 
 📚 Zdroje:
