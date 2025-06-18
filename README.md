@@ -1,12 +1,11 @@
-# rocnikovy_projekt
-
-Název projektu:
+🧩 Název projektu:
 Virtuální sázková aplikace na fotbalové zápasy
 
 ✅ Cíle a kritéria projektu:
-Projekt bude simulovat sázení na skutečné fotbalové zápasy za virtuální měnu. Uživatelé budou moci soutěžit mezi sebou v rámci přátelských žebříčků.
+Projekt bude simulovat sázení na skutečné fotbalové zápasy za virtuální měnu.
+Uživatelé budou moci soutěžit mezi sebou v rámci přátelských žebříčků.
 
-Funkční požadavky:
+🎯 Funkční požadavky:
 Zobrazení reálných zápasů (Top 5 evropských lig + evropské poháry)
 
 Možnost sázet na zápasy (výsledek 1/X/2) za virtuální měnu
@@ -25,20 +24,58 @@ Admin rozhraní pro správu dat a zápasů
 
 🔨 Použité technologie:
 Vrstva	Technologie
-Frontend (mobilní appka)	Flutter (Dart)
+Frontend (mobilní)	Flutter (Dart)
 Backend / API	Django + Django REST Framework
 Databáze	PostgreSQL (nebo SQLite pro vývoj)
-Získávání reálných dat	API-Football (REST API pro zápasy a výsledky)
-Autentizace	JWT (token-based authentication)
+Reálná data zápasů	API-Football (REST API)
+Autentizace	JWT (Token-based authentication)
 Závislosti backendu	Python, pip, virtualenv
 
 📆 Fáze projektu (časový plán):
 Fáze	Popis	Technologie	Výstup
-1. Analýza a návrh	Rozdělení funkcí, návrh databáze a rozhraní	Papír / Figma / dbdiagram.io	ER diagram, UI návrhy
-2. Backend - základ	Django projekt, modely pro uživatele, zápasy a sázky	Django ORM	REST API (základ)
-3. API integrace	Napojení na fotbalové API (zápasy + výsledky)	Django, requests	Automatické získávání zápasů
-4. Flutter UI	Základní obrazovky – login, seznam zápasů, profil	Flutter	První prototyp appky
-5. Funkce sázení	Přidání sázek, výpočet výsledků, virtuální měna	Django + Flutter	Kompletní herní logika
-6. Přátelé a žebříček	Přidávání přátel, tabulka úspěšnosti	Django + Flutter	Sociální prvek aplikace
-7. Testování a ladění	Testy, opravy, validace dat	Pytest / Flutter Test	Hotová appka
-8. Prezentace a dokumentace	README, video, obhajoba	Markdown / PDF	Dokumentace projektu
+1. Analýza a návrh	Návrh funkcí, databáze, UI mockupy	Figma, dbdiagram.io	ER diagram, návrhy obrazovek
+2. Backend – základ	Vytvoření Django projektu, modely a API struktura	Django ORM	REST API (uživatelé, zápasy)
+3. API integrace	Napojení na API-Football, ukládání zápasů	Django, requests	Automatické stahování zápasů
+4. Flutter UI	První verze appky – login, seznam zápasů	Flutter	Prototyp mobilní appky
+5. Funkce sázení	Logika sázení, výpočty výsledků, virtuální měna	Django + Flutter	Kompletní sázkový systém
+6. Sociální prvky	Přátelé, žebříčky, leaderboard	Django + Flutter	Přátelské soutěžení
+7. Testování a ladění	Testy, opravy, validace dat	Pytest, Flutter Test	Hotová, stabilní aplikace
+8. Dokumentace	README, prezentace, obhajoba	Markdown / PDF	Prezentace projektu
+
+🗓️ Harmonogram (září–leden):
+Měsíc	Aktivita
+Září	Analýza zadání, návrh funkcí a databázové struktury (ER diagram)
+Říjen	Backend – vytvoření Django modelů a API, napojení na fotbalové API
+Listopad	Vývoj Flutter UI, přidání funkcí sázení a uživatelského účtu
+Prosinec	Implementace přátel, žebříčku, historie sázek, testování
+Leden	Finální ladění, tvorba dokumentace, prezentace a obhajoba projektu
+
+📚 Zdroje:
+API pro fotbalová data:
+API-Football – https://www.api-football.com/
+
+Frameworky a technologie:
+
+Django – https://www.djangoproject.com/
+
+Django REST Framework – https://www.django-rest-framework.org/
+
+Flutter – https://flutter.dev/
+
+Dart – https://dart.dev/
+
+PostgreSQL – https://www.postgresql.org/
+
+JWT – https://jwt.io/
+
+Návrh databáze:
+dbdiagram.io – https://dbdiagram.io
+
+Návrh UI:
+Figma – https://www.figma.com/
+
+Testování:
+
+Pytest – https://docs.pytest.org/
+
+Flutter Testing – https://docs.flutter.dev/testing
